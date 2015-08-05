@@ -15,8 +15,11 @@ html {
 *:after {
   box-sizing: border-box; }
 
+p {
+  width: 80%; }
+
 .test {
-  background-color: green; }
+  /* background-color: green; */ }
 
 .pikachu {
   width: 300px;
@@ -28,17 +31,21 @@ html {
 
 .post {
   background-color: red;
-  width: 40%;
+  width: 80%;
   float: left;
   border: 1px solid blue;
   padding: 20px;
   margin: 5%;
-  height: 250px; }
+  height: 250px;
+  overflow: auto; }
 
 .page-title-bar {
-  background-color: green;
+  /* background-color: green; */
   /* width:30%; */
-  border: 1px solid black; }
+  /* border: 1px solid black; */ }
+
+header.page-title-bar {
+  padding: 10px 0px; }
 
 .logo {
   color: black;
@@ -83,13 +90,13 @@ body {
 
 h1 {
   font-size: 2.5em;
-  padding: 2em 8px;
+  padding: 23px 5px;
   color: white;
   background-color: red;
   margin: 0; }
 
 #content {
-  padding: 0 50px 50px; }
+  padding: 0 75px 75px; }
 
 nav {
   overflow: auto;
