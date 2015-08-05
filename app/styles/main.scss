@@ -16,8 +16,7 @@ html {
   box-sizing: border-box; }
 
 p {
-    width: 80%;
-}
+  width: 80%; }
 
 .test {
   /* background-color: green; */ }
@@ -37,13 +36,8 @@ p {
   border: 1px solid blue;
   padding: 20px;
   margin: 5%;
-  height: 250px; 
-  overflow: auto;
-}
-
-article.post {}
-
-article.post {}
+  height: 250px;
+  overflow: auto; }
 
 .page-title-bar {
   /* background-color: green; */
@@ -51,8 +45,7 @@ article.post {}
   /* border: 1px solid black; */ }
 
 header.page-title-bar {
-    padding: 10px 0px;
-}
+  padding: 50px 0px; }
 
 .logo {
   color: black;
@@ -62,22 +55,27 @@ header.page-title-bar {
 #nav {
   width: 100%;
   float: left;
-  margin: 0 0 3em 0;
+  margin: 0;
   padding: 0;
   list-style: none;
   background-color: #f2f2f2;
   border-bottom: 1px solid #ccc;
   border-top: 1px solid #ccc; }
 
+ul#nav {
+  height: 50px; }
+
 #nav li {
   float: left; }
 
 #nav li a {
   display: block;
-  padding: 8px 15px;
+  padding: 0px 15px;
   text-decoration: none;
   font-weight: bold;
   color: black;
+  height: 50px;
+  line-height: 50px;
   border-right: 1px solid #ccc; }
 
 #nav li a:hover {
@@ -97,7 +95,7 @@ body {
 
 h1 {
   font-size: 2.5em;
-  padding: 23px 5px;
+  padding: 40px 5px;
   color: white;
   background-color: red;
   margin: 0; }
@@ -111,6 +109,12 @@ nav {
   top: 0;
   left: 0;
   width: 100%; }
+
+img {
+  /* max-width: 100%; */
+  width: auto;
+  height: 50px;
+  /* padding: 0; */ }
 
 /*****************************************************************************
   Layout Styles
